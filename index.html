@@ -1,0 +1,2684 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@600&family=Potta+One&family=Prompt&family=Train+One&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<!----<link rel="stylesheet" href="/style.css">--->
+<link rel="stylesheet" href="/prism.css">
+<script src="/prism.js"></script>
+</head>
+<body>
+  
+<style>
+  
+#Explore{
+  background-color: white;
+  color: black;
+  margin: ;
+  padding:5px 5px;
+border: 1px solid black;
+width: 310px;
+height: 40px;
+font-size: x-large;
+font: ;
+margin-left: 45px;
+font-family: "Poppins", sans-serif;
+margin-top: 0px;
+  /* SCALE */
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  /* VERZÖGERUNG */
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+#Explore:hover{
+ 
+
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.05) ;
+    border: 1px solid black;
+   
+    color:;
+
+      box-shadow: 10px 10px solid black;
+      box-shadow: ;
+    
+        transition: box-shadow .3s;
+    
+    
+        box-shadow: -10px 10px black;
+      
+       
+        box-shadow: ;
+    
+    
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  line-height: 1.5;
+}
+
+/* Float four columns side by side */
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+
+
+/* Style the counter cards */
+.card {
+  margin-left: 50px;
+ border: 1px black solid;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  height: 100px;
+  width: 250px;
+  
+}
+.card:hover{
+  box-shadow: 10px 10px solid black;
+  box-shadow: ;
+
+    transition: box-shadow .3s;
+
+
+    box-shadow: -10px 10px black;
+  
+   
+    box-shadow: ;
+
+}
+
+div.image {
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+}
+.card {
+
+	/* SCALE */
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	/* VERZÖGERUNG */
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.card:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.05) ;
+  border: 1px solid black;
+  color: #00fffb;
+  color:;
+}
+.card a:hover{
+  
+color:;
+  
+}
+.fontcard{
+  font-size: 1.8rem;
+  color :black;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  
+  font-weight: bold;
+  }
+  
+
+
+
+::selection{
+  background-color: blue;
+  color: white
+  ;
+}
+.navfixed{
+  position: ;
+  margin-top: 0px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #00fffb;
+  color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #00fffb;
+color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.navbar123{
+  width: 100%;
+  position: ;
+  margin-top:;
+}
+
+
+
+#code{
+    margin-left: 100px;
+    color: #00fffb;
+    background-color: black;
+    width: 80%;
+    padding: 10px 10px;
+}
+
+
+
+* {box-sizing: border-box}
+body {font-family: "Prompt", sans-serif;}
+.tab {
+    float: left;
+    width: 15%;
+    padding: 5px 5px;
+    height: 20000px; 
+    border: 1px solid black;/* Should be removed. Only for demonstration */
+   margin-top: 4px;
+    margin: px;
+    background-color: #f5ffff;
+    font-size: medium;
+  }
+  .tab a{
+    display: block;
+    color: black;
+    text-decoration: none;
+  
+  }
+  .tab a.active {
+    background-color: black;
+    color: white;
+  }
+  .tab a:hover:not(.active) {
+    background-color: black;
+    color: white;
+  }
+  .column2 {
+    float: left;
+    width: 55%;
+    padding: 10px;
+    height: 20000px;
+    background-color: #f2f7f4; /* Should be removed. Only for demonstration */
+  }
+  .column3 {
+    float: left;
+    width: 25%;
+    padding: 10px ;
+    height: 20000px;
+    background-color:#ccfffe;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    margin-top :4px; /* Should be removed. Only for demonstration */
+  }
+  body{
+    background-color: whitesmoke
+    ;
+    
+  }
+  #clanguage{
+    background-color: ;
+    color: black;
+    font-family: "Poppins",sans-serif;
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:#fce6fb;
+    width: 80%;
+    margin-left: 70px;
+    
+  }
+  .grid-items {
+    
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:#feffb8;
+    font-size: medium;
+
+    
+  }
+  .grid-item1 {
+    
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:#d6ffcf;
+    font-size: medium;
+
+    
+  }
+  .grid-item2 {
+    
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #baa2f5;
+    padding: ;
+    margin: 30px;
+  }
+  .grid-item3 {
+    background-color: 
+    #d1c0fc
+    ;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .grid-container4 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:  #ffccff;
+    padding: ;
+    margin: 30px;
+  }
+  .grid-item4 {
+    background-color: 
+    #ffccff
+    ;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .grid-container5 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:  #9fff80;
+    padding: ;
+    margin: 30px;
+    border: 1px solid black;
+  }
+  .grid-item5 {
+    background-color: 
+    #c6ffb3
+    ;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+/* Style the tab 
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}*/
+#img{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+     .topnav {
+      overflow: hidden;
+      background-color: black;
+      position:;
+      margin-top: 4px;
+      width: 100%;
+
+    }
+    
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #00fffb;;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+/* Style the buttons inside the tab 
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ Change background color of buttons on hover 
+.tab button:hover {
+  background-color: #ddd;
+}
+
+ Create an active/current "tab button" class 
+.tab button.active {
+  background-color: #ccc;
+}
+*/
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 60%;
+  border-left: none;
+  height: 20000px;
+ border: 1px solid #f5ffff ;
+ border-top: 1px solid black;
+  background-color:  	 #edfffe;
+  border: ;
+  margin-top:4px ;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: 70px;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+</style>
+
+
+
+
+
+<!------------------------------------------------------------------------------------------------------------------------>
+
+
+<nav class="navfixed">
+    <div class="Navbar123">
+      <ul id="fixed">
+    <li><a href="#home">Home</a></li>
+    
+<li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Python</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Java</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">JavaScipt</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">C</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">C++</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">C#</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">HTML</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">CSS</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">PHP</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Ruby</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Rust</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">R</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">GO</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Kotlin</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Swift</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">MYSql</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">TypeScript</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">React</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Jquery</a>
+      <div class="dropdown-content">
+        <a href="#">Tutorial</a>
+        <a href="#">Example</a>
+         </div>
+    </li>
+   
+    </div>
+
+  </div>
+  </ul>
+  </nav>
+
+
+<div class="tab" >
+  <a class="tablinks" onclick="openCity(event, 'What is C ?')" id="defaultOpen">What is C ?</a>
+  <a class="tablinks" onclick="openCity(event, 'History')">History</a>
+  <a class="tablinks" onclick="openCity(event, 'Features')">Features</a>
+    <a class="tablinks" onclick="openCity(event, 'How to install ?')"> How to install ?                  </a>
+    <a class="tablinks" onclick="openCity(event, 'First C Program')"> First C Program</a>
+    <a class="tablinks" onclick="openCity(event, 'Compilation Process')"> Compilation Process</a>
+    <a class="tablinks" onclick="openCity(event, 'Printf Scanf')"> Printf and Scanf</a>
+    <a class="tablinks" onclick="openCity(event, 'Variables')"> Variables</a>
+    <a class="tablinks" onclick="openCity(event, 'Data Types')"> Data Types</a>
+    <a class="tablinks" onclick="openCity(event, 'Keywords')"> Keywords</a>
+    <a class="tablinks" onclick="openCity(event, 'Identifiers')"> Identifiers</a>
+    <a class="tablinks" onclick="openCity(event, 'Operators')"> Operators</a>
+    <a class="tablinks" onclick="openCity(event, 'Comments')"> Comments</a>
+    <a class="tablinks" onclick="openCity(event, 'Format Specifier')"> Format Specifier</a>
+    <a class="tablinks" onclick="openCity(event, 'Escape sequence')"> Escape Sequence</a>
+    <a class="tablinks" onclick="openCity(event, 'ASCII value')"> ASCII value</a>
+    <a class="tablinks" onclick="openCity(event, 'Constants')"> Constants</a>
+    <a class="tablinks" onclick="openCity(event, 'Literals')"> Literals</a>
+    <a class="tablinks" onclick="openCity(event, 'Tokens')"> Tokens</a>
+    <a class="tablinks" onclick="openCity(event, 'Boolean')"> Boolean</a>
+    <a class="tablinks" onclick="openCity(event, 'Static')"> Static</a>
+    <a class="tablinks" onclick="openCity(event, 'Errors')"> Errors</a>
+    <a class="tablinks" onclick="openCity(event, 'Compile time vs Runtime')"> Compile time vs Runtime</a>
+    <a class="tablinks" onclick="openCity(event, 'Conditional Operator')"> Conditional Operator</a>
+    <a class="tablinks" onclick="openCity(event, 'Bitwise Operator')"> Bitwise Operator</a>
+    <a class="tablinks" onclick="openCity(event, '2s complement')"> 2s complement</a>
+    <a class="tablinks" onclick="openCity(event, 'Fundamental Test')"> Fundamental Test</a>
+
+</div>
+
+
+
+
+
+
+
+
+
+<div id="What is C ?" class="tabcontent">
+  <h1 style="color: black;">What is C ?</h1>
+ <p> C language Tutorial with programming approach for beginners and professionals, helps you to understand the C language tutorial easily. Our C tutorial explains each topic with programs.
+        
+       <br> The C Language is developed by Dennis Ritchie for creating system applications that directly interact with the hardware devices such as drivers, kernels, etc.
+        
+       <br> C programming is considered as the base for other programming languages, that is why it is known as mother language.
+        
+      <br><br><br> It can be defined by the following ways:
+        
+        <br>
+       <br> 1. Mother language
+       <br> 2. System programming language
+       <br> 3. Procedure-oriented programming language
+       <br> 4. Structured programming language
+       <br> 5. Mid-level programming language
+        
+         
+       <br><br><br> <b>1) C as a mother language</b>
+       <br> C language is considered as the mother language of all the modern programming languages because most of the compilers, JVMs, Kernels, etc. are written in C language, and most of the programming languages follow C syntax, for example, C++, Java, C#, etc.
+        
+        It provides the core concepts like the array, strings, functions, file handling, etc. that are being used in many languages like C++, Java, C#, etc.
+        <hr>
+     <b> 2) C as a system programming language</b>
+        <br> A system programming language is used to create system software. C language is a system programming language because it can be used to do low-level programming (for example driver and kernel). It is generally used to create hardware devices, OS, drivers, kernels, etc. For example, Linux kernel is written in C.
+        
+        It can't be used for internet programming like Java, .Net, PHP, etc.
+        <hr>
+        <b>3) C as a procedural language</b>
+       <br> A procedure is known as a function, method, routine, subroutine, etc. A procedural language specifies a series of steps for the program to solve the problem.
+        
+        A procedural language breaks the program into functions, data structures, etc.
+        
+        C is a procedural language. In C, variables and function prototypes must be declared before being used.
+        
+        <hr><b>4) C as a structured programming language</b>
+       <br> A structured programming language is a subset of the procedural language. Structure means to break a program into parts or blocks so that it may be easy to understand.
+        
+        
+        In the C language, we break the program into parts using functions. It makes the program easier to understand and modify.
+        
+        <hr><b>5) C as a mid-level programming language</b>
+       <br> C is considered as a middle-level language because it supports the feature of both low-level and high-level languages. C language program is converted into assembly code, it supports pointer arithmetic (low-level), but it is machine independent (a feature of high-level).
+        
+        A Low-level language is specific to one machine, i.e., machine dependent. It is machine dependent, fast to run. But it is not easy to understand.
+        
+        A High-Level language is not specific to one machine, i.e., machine independent. It is easy to understand.</p>
+     <hr>
+      
+
+          
+        
+     
+        </div>
+</div>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+<div id="History" class="tabcontent">
+  <h3>History</h3>
+  
+    <b>History of C Language</b>
+   <br><br> Dennis Ritchie - founder of C language
+   <br> History of C language is interesting to know. Here we are going to discuss a brief history of the c language.
+    
+  <br>  C programming language was developed in 1972 by Dennis Ritchie at bell laboratories of AT&T (American Telephone & Telegraph), located in the U.S.A.
+    
+   <br> Dennis Ritchie is known as the founder of the c language.
+    
+   <br><br> It was developed to overcome the problems of previous languages such as B, BCPL, etc.
+    
+    
+   <br> Initially, C language was developed to be used in UNIX operating system. It inherits many features of previous languages such as B and BCPL.
+    
+  <br> <br> Let's see the programming languages that were developed before C language.
+  
+
+   <br><br><b>The Beginning</b><br>
+The C programming language came out of Bell Labs in the early 1970s. According to the Bell Labs paper The Development of the C Language by Dennis Ritchie, “The C programming language was devised in the early 1970s as a system implementation language for the nascent Unix operating system. Derived from the typeless language BCPL, it evolved a type structure; created on a tiny machine as a tool to improve a meager programming environment.” Originally, Ken Thompson, a Bell Labs employee, desired to make a programming language for the new Unix platform. Thompson modified the BCPL system language and created B. However, not many utilities were ever written in B due to its slow nature and inability to take advantage of PDP-11 features in the operating system. This led to Ritchie improving on B, and thus creating C.
+
+<br><br><b>Early Implementations and Language Standard</b><br>
+The development of C was to become the basis for Unix. According to the Bell Labs paper, “By early 1973, the essentials of modern C were complete. The language and compiler were strong enough to permit us to rewrite the Unix kernel for the PDP-11 in C during the summer of the year.” This now meant that C was becoming a strong language that could, and would be, implemented across many systems. By the middle of the 1970s, the C-based Unix was used in many projects within the Bell System as well as “a small group of research-oriented industrial, academic, and government organizations outside [Bell Labs]".
+
+<br> In 1978, Brian Kernighan and Dennis Ritchie published The C Programming Language, which would serve as the language reference until a formal standard was adopted. Five years later, the American National Standard Institute (ANSI) formed the committee, X3J11, to establish the formal standard of C. The C standard was ratified as ANSI X3.159-1989 “Programming Language C”. This was the first formal standard of C. Currently, we are on the fourth standard of C, known as C18 as it was published in June of 2018 JavaTpoint.
+
+<br><br><b>Uses Today</b><br>
+According to Toptal, UNIX operating systems are written in C and most of Linux is also in C. Also databases such as Oracle Database, MySQL, MS SQL Server, and PostgresSQL are at least partially written in C. C is the basis of many system kernels. Other programming languages, like Python and Perl, use compilers or interpreters that are written in C.
+
+<br> C has changed over the years and is still a common language to use in lower level programs, like kernels. But it is also used for many applications ranging from device drivers to other programming languages’ compilers or interpreters. The language also made way for C++, Objective-C, C#, and many more C-based languages that each have their own speciality.
+</p>
+<img src="/history-of-c-language.gif " id="img" alt="">
+</div>
+
+<div id="Features" class="tabcontent">
+  <h3>Features</h3>
+  <p class="content1">
+    <b>Features of C Language</b><br>
+    
+ <br>  C is the widely used language. It provides many features that are given below.
+    
+   <br>1. Simple
+   <br>2. Machine Independent or Portable
+   <br>3. Mid-level programming language
+   <br>4. structured programming language
+   <br>5. Rich Library
+   <br>6. Memory Management
+   <br>7. Fast Speed
+   <br>8. Pointers
+   <br>9. Recursion
+   <br>10. Extensible
+  <hr><b> 1) Simple</b><br>
+    C is a simple language in the sense that it provides a structured approach (to break the problem into parts), the rich set of library functions, data types, etc.
+    <hr>
+  <b>  2) Machine Independent or Portable</b>
+   <br> Unlike assembly language, c programs can be executed on different machines with some machine specific changes. Therefore, C is a machine independent language.
+    <hr>
+    <b>3) Mid-level programming language</b><br>
+    Although, C is intended to do low-level programming. It is used to develop system applications such as kernel, driver, etc. It also supports the features of a high-level language. That is why it is known as mid-level language.
+    <hr>
+    
+   <b> 4) Structured programming language</b><br>
+    C is a structured programming language in the sense that we can break the program into parts using functions. So, it is easy to understand and modify. Functions also provide code reusability.
+    <hr>
+   <b> 5) Rich Library</b><br>
+    C provides a lot of inbuilt functions that make the development fast.
+    <hr>
+ <b>   6) Memory Management</b><br>
+    It supports the feature of dynamic memory allocation. In C language, we can free the allocated memory at any time by calling the free() function.
+    <hr>
+<b>    7) Speed</b><br>
+    The compilation and execution time of C language is fast since there are lesser inbuilt functions and hence the lesser overhead.
+    <hr>
+   <b> 8) Pointer</b><br>
+    C provides the feature of pointers. We can directly interact with the memory by using the pointers. We can use pointers for memory, structures, functions, array, etc.
+    <hr>
+  <b>  9) Recursion</b><br>
+    In C, we can call the function within the function. It provides code reusability for every function. Recursion enables us to use the approach of backtracking.
+    <hr>
+<b>    10) Extensible</b><br>
+    C language is extensible because it can easily adopt new features.
+   <hr>
+</p>
+</div>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+<div id="First C Program" class="tabcontent">
+ <h3> First C Program</h3>
+ Before starting the abcd of C language, you need to learn how to write, compile and run the first c program.
+    <br>
+    
+    To write the first c program, open the C console and write the following code:
+    
+  <pre class="language-c"><code>  
+    #include&lt;stdio.h&gt;
+  int main(){
+     printf("Hello C Language");
+      return 0;
+    } 
+  </code></pre> 
+    <br><br>
+    #include&lt;stdio.h&gt; includes the standard input output library functions.
+      <br> The printf() function is defined in stdio.h .
+    <br>
+    int main() The main() function is the entry point of every program in c language.
+    
+    printf() The printf() function is used to print data on the console.
+    
+    return 0 The return 0 statement, returns execution status to the OS. The 0 value is used for successful execution and 1 for unsuccessful execution.
+    <br><br>
+    How to compile and run the c program <br><br>
+    There are 2 ways to compile and run the c program,<br> by menu and by shortcut.
+    
+  <br> <br> By menu <br>
+    Now click on the compile menu then compile sub menu to compile the c program.
+    
+    Then click on the run menu then run sub menu to run the c program.
+    <br><br>
+    By shortcut <br>
+    Or, press ctrl+f9 keys compile and run the program directly.
+    
+    You will see the following output on user screen.
+    <pre class="language-c"><code>Hello C Language</code></pre>
+</div>
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+<div id="Compilation Process" class="tabcontent">
+  <h3> Compilation process in c</h3>
+  What is a compilation? <br>
+  The compilation is a process of converting the source code into object code. It is done with the help of the compiler. The compiler checks the source code for the syntactical or structural errors, and if the source code is error-free, then it generates the object code.
+  <br><br>
+  Compilation process in c <br>
+  The c compilation process converts the source code taken as input into the object code or machine code. The compilation process can be divided into four steps, i.e., Pre-processing, Compiling, Assembling, and Linking.
+  <br><br>
+  The preprocessor takes the source code as an input, and it removes all the comments from the source code. The preprocessor takes the preprocessor directive and interprets it. For example, if <stdio.h>, the directive is available in the program, then the preprocessor interprets the directive and replace this directive with the content of the 'stdio.h' file.
+  <br><br><br>
+  The following are the phases through which our program passes before being transformed into an executable form:
+  <br>
+ <b>1. Preprocessor</b><br>
+ <b>2. Compiler                  </b><br>
+ <b>3. Assembler</b><br>
+ <b>4. Linker</b><br>
+ <b>5. Compilation process in c</b><br><br>
+ <b class="underline">1. Preprocessor</b><br>
+  The source code is the code which is written in a text editor and the source code file is given an extension ".c". This source code is first passed to the preprocessor, and then the preprocessor expands this code. After expanding the code, the expanded code is passed to the compiler.
+  
+  <br><br><b class="underline">2. Compiler</b><br>
+  The code which is expanded by the preprocessor is passed to the compiler. The compiler converts this code into assembly code. Or we can say that the C compiler converts the pre-processed code into assembly code.
+  
+  <br><br><b class="underline">3. Assembler</b><br>
+  The assembly code is converted into object code by using an assembler. The name of the object file generated by the assembler is the same as the source file. The extension of the object file in DOS is '.obj,' and in UNIX, the extension is 'o'. If the name of the source file is 'hello.c', then the name of the object file would be 'hello.obj'.
+  
+ <br><br><b class="underline">4. Linker</b><br>
+  Mainly, all the programs written in C use library functions. These library functions are pre-compiled, and the object code of these library files is stored with '.lib' (or '.a') extension. The main working of the linker is to combine the object code of library files with the object code of our program. Sometimes the situation arises when our program refers to the functions defined in other files; then linker plays a very important role in this. It links the object code of these files to our program. Therefore, we conclude that the job of the linker is to link the object code of our program with the object code of the library files and other files. The output of the linker is the executable file. The name of the executable file is the same as the source file but differs only in their extensions. In DOS, the extension of the executable file is '.exe', and in UNIX, the executable file can be named as 'a.out'. For example, if we are using printf() function in a program, then the linker adds its associated code in an output file.
+  <br>
+  Let's understand through an example.
+  <br>
+ <pre class="language-c"><code> hello.c
+  
+  #include&lt;stdio.h&gt;
+  int main()
+  {
+      printf("Hello World");
+      return 0;
+  }</code></pre>
+  <br><br>
+  Now, we will create a flow diagram of the above program:
+  
+  Compilation process in c
+  In the above flow diagram, the following steps are taken to execute a program:
+  <br><br>
+  Firstly, the input file, i.e., hello.c, is passed to the preprocessor, and the preprocessor converts the source code into expanded source code. The extension of the expanded source code would be hello.i.
+  The expanded source code is passed to the compiler, and the compiler converts this expanded source code into assembly code. The extension of the assembly code would be hello.s.
+  This assembly code is then sent to the assembler, which converts the assembly code into object code.
+  After the creation of an object code, the linker creates the executable file. The loader will then load the executable file for the execution.
+</div>
+
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div id="Printf Scanf" class="tabcontent">
+  <h3>printf() and scanf() in C</h3>
+  
+    The printf() and scanf() functions are used for input and output in C language. Both functions are inbuilt <br> library functions, defined in stdio.h (header file).
+    <br><br>
+    <b style="text-decoration: underline;">printf() function </b><br>
+    The printf() function is used for output. It prints the given statement to the console.
+    <br>
+    The syntax of printf() function is given below:
+    <br>
+    printf("format string",argument_list);  
+    The format string can be %d (integer), %c (character), %s (string), %f (float) etc.
+    <br><br>
+    <b>scanf() function</b><br>
+    The scanf() function is used for input. It reads the input data from the console.
+    <br>
+    scanf("format string",argument_list);  <br><hr>
+    Program to print cube of given number   <br>
+    Let's see a simple example of c language that gets input from the user and prints the cube of the given number.
+    <br><br><pre class="language-c"><code>
+      #include&lt;stdio.h&gt;    
+    int main(){    
+    int number;    
+    printf("enter a number:");    
+    scanf("%d",&number);    
+    printf("cube of number is:%d ",number*number*number);    
+    return 0;  
+    } 
+    <br></code></pre><br>
+    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+  <b>  Output</b>
+    
+    <pre class="language-c"><code>enter a number:5
+      cube of number is:125</code></pre>
+</pre></code>
+The scanf("%d",&number) statement reads integer number from the console and stores the given value in number variable.
+<br><br>
+The printf("cube of number is:%d ",number*number*number) statement prints the cube of number on the console.
+<br><br>
+<b>Program to print sum of 2 numbers:</b> <br><br>
+Let's see a simple example of input and output in C language that prints addition of 2 numbers.
+<br>
+<pre class="language-c++"><code>
+
+#include&lt;stdio.h&gt;    
+int main(){    
+int x=0,y=0,result=0;  
+  
+printf("enter first number:");  
+scanf("%d",&x);  
+printf("enter second number:");  
+scanf("%d",&y); 
+  
+result=x+y;  
+printf("sum of 2 numbers:%d ",result);  
+  
+return 0;  
+}    </code></pre>
+<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+<b>Output</b><pre class="language-c"><code>
+
+enter first number:9
+enter second number:9
+sum of 2 numbers:18
+</code></pre><br>
+
+</div>
+
+
+<!------------------------------------------------------------------------------------------------------------------------------->
+
+
+<div id="Variables" class="tabcontent">
+  <h3>Variables in C</h3>
+    A variable is a name of the memory location. It is used to store data. Its value can be changed, and it can be
+    reused many times.
+    <br>
+    It is a way to represent memory location through symbol so that it can be easily identified.
+    <br><br>
+    Let's see the syntax to declare a variable:
+    <br>
+    <pre class="language-c">
+        <code>type variable_list</code>
+    </pre><br>
+    The example of declaring the variable is given below:
+    <br>
+    <pre class="language-c">
+        <code>  int a;  
+                float b;  
+                char c;</code>
+    </pre><br>
+
+
+    Here, a, b, c are variables. The int, float, char are the data types. <br><br>
+<br>
+    We can also provide values while declaring the variables as given below:
+
+    <br>
+    <pre class="language-c">
+        <code> int a=10,b=20;//declaring 2 variable of integer type
+            float f=20.8;
+            char c='A';</code>
+    </pre><br><br>
+  <b>  Rules for defining variables</b><br>
+ <br> 1.  A variable can have alphabets, digits, and underscore.
+ <br> 2.  A variable name can start with the alphabet, and underscore only. It can't start with a digit.
+ <br>  3. No whitespace is allowed within the variable name.
+ <br>  4. A variable name must not be any reserved word or keyword, e.g. int, float, etc.
+   <br><br> <br><b>Valid variable names:</b>
+
+   <br>
+   <pre class="language-c">
+       <code>int a;
+        int _ab;
+        int a30;</code>
+   </pre><br>
+    <br><b>Invalid variable names:</b><br>
+
+    <br>
+    <pre class="language-c">
+        <code>int 2;
+            int a b;
+            int long;</code>
+    </pre><br>
+    <br><b>Types of Variables in C</b><br><br>
+    There are many types of variables in c: <br>
+
+  <br> 1. local variable
+  <br> 2. global variable
+  <br> 3.static variable
+  <br> 4. automatic variable
+  <br> 5. external variable
+  <br><br>  <b>Local Variable</b> <br>
+    A variable that is declared inside the function or block is called a local variable.
+
+  <br><br>  It must be declared at the start of the block.
+
+  <br>
+  <pre class="language-c">
+      <code>void function1(){
+        int x=10;//local variable
+        }</code>
+  </pre><br>
+    You must have to initialize the local variable before it is used. <br><br><br>
+
+<b>
+    Global Variable</b><br><br>
+    A variable that is declared outside the function or block is called a global variable. Any function can change the
+    value of the global variable. It is available to all the functions. <br>
+<br><br>
+    It must be declared at the start of the block.
+<br>
+
+<pre class="language-c">
+    <code> int value=20;//global variable
+        void function1(){
+        int x=10;//local variable
+        }</code>
+</pre><br>
+<br><b>Static Variable</b><br><br>
+    A variable that is declared with the static keyword is called static variable.
+<br><br>
+    It retains its value between multiple function calls.
+
+    <br>
+    <pre class="language-c">
+        <code>   void function1(){
+            int x=10;//local variable
+            static int y=10;//static variable
+            x=x+1;
+            y=y+1;
+            printf("%d,%d",x,y);
+            }</code>
+    </pre><br>
+    If you call this function many times, the <b>local variable will print the same value</b> for each function call, e.g,
+    11,11,11 and so on. But the <b>static variable will print the incremented value</b> in each function call, e.g. 11, 12, 13
+    and so on.
+<br><br><br>
+
+   <b> Automatic Variable</b><br>
+    All variables in C that are declared inside the block, are automatic variables by default. We can explicitly declare
+    an automatic variable using <b>auto keyword</b>. 
+
+    <br>
+    <pre class="language-c">
+        <code>void main(){
+            int x=10;//local variable (also automatic)
+            auto int y=20;//automatic variable
+            }</code>
+    </pre><br><br>
+    <b>External Variable</b><br><br>
+    We can share a variable in multiple C source files by using an external variable. To declare an external variable,
+    you need to use <b>extern keyword</b>. <br>
+<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; myfile.h <br>
+    
+    <pre class="language-c">
+        <code>extern int x=10;//external variable (also global)</code>
+    </pre><br>
+    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+    
+    <b>program1.c</b>
+    <br>
+    <pre class="language-c">
+        <code> #include "myfile.h"
+            #include&lt;stdio.h&gt;
+                void printValue(){
+                printf("Global variable: %d", global_variable);
+                }</code>
+    </pre><br>
+
+</div>
+
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+<div id="Data Types" class="tabcontent">
+  <h3>Data types in C Language</h3>
+
+Data types specify how we enter data into our programs and what type of data we enter. C language has some predefined set of data types to handle various kinds of data that we can use in our program. These datatypes have different storage capacities.
+<br>
+<b>C language supports 2 different type of data types:</b>
+
+<br><br><b>Primary data types:</b><br>
+These are fundamental data types in C namely integer(int), floating point(float), character(char) and void.
+
+<br><br><b>Derived data types:</b>
+Derived data types are nothing but primary datatypes but a little twisted or grouped together like array, stucture, union and pointers. These are discussed in details later.
+<img src="/c-data-types.jpg" alt=""><br>
+<img src="/C-Datatypes-Range-and-Sizes.png" alt=""><br>
+<img src="/Data-types-hierarchy-in-C-language.png" alt=""><br>
+<img src="/Data-types-in-C.png" alt="">
+<br>
+
+<h3>What is a Data Type in C?</h3>
+A data type in C refers to the type of data used to store the information. For example, the name of a person would be an array of characters, while the age will be in integers. Whereas, the marks of a student would require a data type that can store decimal values.
+<br><br>
+In C language, four different data types can be used to differentiate and store various types of data. They are given in the table below:
+<br><br>
+<table id="customers">
+<tr>
+  <th>Type</th>
+  <th>Data Types</th>
+</tr>
+<tr>
+<td>Basic Data Types</td>
+<td>int, char, float & double</td>
+</tr>
+<tr>
+  <td>Derived Data Types</td>
+  <td>Array, Pointer, Structure & Union</td>
+</tr>
+<tr>
+  <td>Enumeration data type</td>
+  <td>enum</td>
+</tr>
+<tr>
+  <td>Void data type</td>
+  <td>void</td>
+</tr>
+</table><br><br>
+
+Now, let’s discuss all these data types in detail with some examples and understand how to implement them in C language.
+
+<h3>Basic Data Types</h3>
+In C language, basic data types are used to store values in integer and decimal forms. It supports both signed and unsigned literals. There are four basic data types, in both signed and unsigned forms:
+<br>
+<br> 1.Int
+<br> 2.Float
+<br> 3.Double
+<br> 4.Char <br><br>
+The memory size of these data types can change depending on the operating system (32-bit or 64-bit). Here is the table showing the data types commonly used in C programming with their storage size and value range, according to the 32-bit architecture.
+<br><br>
+
+<b>1. Integer Data Type</b><br>
+An integer type variable can store zero, positive, and negative values without any decimal. In C language, the integer data type is represented by the ‘int’ keyword, and it can be both signed or unsigned. By default, the value assigned to an integer variable is considered positive if it is unsigned.
+<br><br>
+The integer data type is further divided into short, int, and long data types. The short data type takes 2 bytes of storage space; int takes 2 or 4 bytes, and long takes 8 bytes in 64-bit and 4 bytes in the 32-bit operating system.
+<br><br>
+If you try to assign a decimal value to the integer variable, the value after the decimal will be truncated, and only the whole number gets assigned to the variable. Here is an example that will help you understand more about the concept.
+
+<br>
+<pre class="language-c">
+<code>#include&lt;stdio.h&gt;
+  int main() {
+      short int a=10000;
+      int b=11252486;
+      long num1=499962313469;
+      long long num2=51454456154585454;
+      printf("a is %hd \n b is %d \n num1
+       is %ld \n num2 is %lld \n",a,b,num1,num2);
+      return 0;
+  }</code>
+</pre><br>
+The output of the above program will be as follows:
+
+<br>
+<pre class="language-c">
+<code>a is 10000
+  b is 11252486
+  num1 is 1746107133
+  num2 is 51454456154585454</code>
+</pre><br>
+<br>
+While doing an arithmetic operation, if the result comes out to be a decimal value, the variable will only accept the whole number and discard the numbers after the decimal point. For short int, an incorrect value will be displayed if the number is bigger than 10000.
+<br><hr><br>
+<b style="font-size: large;">2. Float-pointing Data Types</b><br>
+The floating-point data type allows a user to store decimal values in a variable. 
+<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It is of two types:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.Float
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.Double
+
+<br><br>
+<b>Float</b><br>
+
+Float variables store decimal values with up to 6 digits after the decimal place. The storage size of the float variable is 4 bytes, but the size may vary for different processors, the same as the ‘int’ data type.
+<br><br>
+In C language, the float values are represented by the ‘%f’ format specifier. A variable containing integer value will also be printed in the floating type with redundant zeroes. It will be clear for you from the example given below:
+<br>
+<pre class="language-c">
+    <code>#include&lt;stdio.h&gt;
+        int main() {
+        float sum=9664.35;
+        float num=67;
+        float average=(sum/num);
+        printf("Average is %f \n", average);
+        printf("Value of num is %f \n",num);
+        printf("Value of num presented as an integer %d \n",num);
+    }</code>
+</pre><br><br>
+<b>The output of the above program will be as given below:</b>
+
+<br><pre class="language-c">
+    <code>Average is 144.244019
+        Value of num is 67.000000
+        Value of num presented as an integer 0</code>
+</pre><br>
+If you assign an integer value to a float variable, the result will always be a float value with zeroes after the decimal place. As mentioned, float values are represented by the ‘%f’ format specifier. However, if you try to print float values with ‘%d’, then the output will not be 67 in the above case. Instead, you will see a garbage value on the output screen.
+
+<br><br>
+<b style="font-size: large;">Double</b><br>
+The double data type is similar to float, but here, you can have up to 10 digits after the decimal place. It is represented by the ‘double’ keyword and is mainly used in scientific programs where extreme precision is required.
+<br><br>
+In the example below, the double variable prints the exact value ‘349999999.454’, while the float variable messes up with the number and prints a round-off value.
+<br>
+<br>
+<pre class="language-c">
+    <code>#include&lt;stdio.h&gt;
+        int main()
+        {
+            float score=349999999.454;
+            double average=349999999.454;
+            printf("Score in %f \n",score);
+            printf("Average is %lf",average);
+            return 0;
+        }
+    }</code>
+</pre><br><br>
+<b>The output of the above program will be as given below:</b>
+
+<br><pre class="language-c">
+    <code>Score in 350000000.000000
+        Average is 349999999.454000</code>
+</pre><br>
+
+
+
+
+
+<br><br><b style="font-size: large;">3. Char</b><br>
+Char is used to storing single character values, including numerical values. If you create an array of the character data type, it becomes a string that can store values such as name, subject, and more.
+<br><br>
+Here is an example of creating an array of characters in C programming.
+<br>
+<pre class="language-c">
+    <code>#include&lt;stdio.h&gt;
+        int main()
+        {
+            char group='A';
+            // to store a string of characters in C programming, we use the array of the characters 
+            char name[30]="student";
+            printf("The group is %c \n",group);
+            printf("The name is %s",name);
+            return 0;
+        }
+    }</code>
+</pre><br><br>
+<b>The output of the above program will be as given below:</b>
+
+<br><pre class="language-c">
+    <code>
+        The group is A
+        The name is student</code>
+</pre><br>
+
+<br>
+The format specifier for a single character is ‘%c’, whereas, a string is represented by ‘%s’ format specifier.
+<br><br><hr><br>
+<b style="font-size: large;">
+    Derived Data Types</b><br>
+The primitive or basic data types are used to store single values of different forms, but what if you need to store more values of the same data type? Here, derived data types allow you to combine the basic data types and store multiple values in a single variable.
+<br><br>
+Derived data types are defined by the user itself, which means that you can aggregate as many elements of similar data types as required. There are four types of derived data types:
+<br>
+<br><b> 1.Array        </b>
+<br><b> 2.Pointer</b>
+<br><b> 3.Structure</b>
+<br><b> 4.Union</b><br><br><hr><br>
+<b style="font-size: large;">1. Array</b><br>
+An array is a collection of similar data-type elements stored in a contiguous memory location. For example, you can store float values like the marks of a student, integer values like the roll number, and so on.
+
+
+<br><br>
+See the below program to understand more:
+
+<br><br>
+<pre class="language-c">
+    <code>#include&lt;stdio.h&gt;
+        int main() {
+        int ar[]={7,5,3,8,9};
+        int i,j;
+        float sum=0,average=0;
+        printf("The array elements are: \n");
+        for(i=0;i<5;i++){
+            printf("%d \t",ar[i]);
+        }
+        int marks[5];
+        printf("\nEnter Marks: \n");
+        for(j=0;j<5;j++) {
+            scanf("%d",&marks[i]);
+            sum =sum + marks[i];
+        }
+        average=(sum/5);
+        printf("The average is %f",average);
+        return 0;
+    }</code>
+</pre><br>
+<b>The output of the program will be like this:</b><br>
+
+<pre class="language-c">
+    <code>The array elements are:
+        7       5       3       8       9
+        Enter Marks:
+        20
+        15
+        35
+        40
+        12
+        The average is 24.400000</code>
+</pre><br><br>
+In this example, the array either needs to be initialized or have the size while declaring it. The size of the array will depend on the data type you are using. Also, the default value of an integer array will be zero.
+<br><br>
+For accessing or changing specific elements in the program, marks[i] is used where ‘marks’ is the array name, in which ‘[i]’ denotes the position of the element.
+<br><br><hr><br>
+<b style="font-size: large;">2. Pointer</b><br>
+Pointer is a variable used to store the address of another variable. To store the address of a variable, the pointer variable should be of the same data type.
+<br><br>
+Pointer enables a user to perform dynamic memory allocation in C language and also pass variables by reference, which means that the user can pass the pointer having the address of the variable.
+<br>
+A pointer with no address is known as the null pointer, while a pointer with no data type is called a void or general-purpose pointer.
+<br><br>
+Have a look at the below program to understand this data type in-depth:
+
+</b><br>
+
+<pre class="language-c">
+    <code>#include&lt;stdio.h&gt;
+        int main() {
+        int *ptr1;
+        int *ptr2;
+        int x=5,y=10;
+        ptr1=&x; //Address of x assigned to ptr1
+        ptr2=&y; //address of y assigned to ptr2
+        
+        printf(" Value of ptr1 %d", *ptr1);
+        printf("\n Value of ptr2 %d", *ptr2);
+         
+        printf("\n Address of variable x %d",ptr1);
+        printf("\n Address of variable y %d",ptr2);
+         
+        int add=(*ptr1 + *ptr2);
+        printf("\n Addition of x and y using ptr1 and ptr2 %d",add);
+        return 0;
+    }</code>
+</pre><br><br>
+<b>The following will be the output of this program:</b><br>
+
+</b>
+
+<pre class="language-c">
+    <code> Value of ptr1 5
+        Value of ptr2 10
+        Address of variable x 6487560
+        Address of variable y 6487556
+        Addition of x and y using ptr1 and ptr2 15</code>
+</pre><br><br>
+In C language, the difference operator ‘&’ is used to assign the address of a variable to the pointer. To access the value stored in the address that the pointer is referring to, you should use the ‘*’ operator.
+<br><br><hr><br>
+<b style="font-size: large;">3. Structure</b><br>
+In C language, a structure is a user-defined data type, which is a group of items used to store the values of similar or different data types. For example, structures can be used to store information about a student, including the name, the roll number, marks, and more. The record of each student will be represented by an object of the structure.
+<br>
+A structure can be created inside as well as outside the main method. To define a structure, the keyword ‘struct’ is used as shown in the below program. The size of the structure would be the sum of the storage size required by every variable.
+
+</b><br>
+
+<pre class="language-c">
+    <code>#include&lt;stdio.h&gt;
+        struct student{
+        char *name;
+        int roll_no;
+        float avg_marks;
+    };
+    
+    int main()
+    {
+        struct student obj;
+        obj.name="Steve";
+        obj.roll_no=25;
+        obj.avg_marks=85.32;
+        
+        printf("Student name is %s",obj.name);
+        printf("\nStudent Roll No is %d",obj.roll_no);
+        printf("\nStudent Average marks are %f",obj.avg_marks);	
+        return 0;
+    }</code>
+</pre><br><br>
+<b>See the output of the above program:</b>
+
+</b><br>
+
+<pre class="language-c">
+    <code>Student name is Steve
+        Student Roll No is 25
+        Student Average marks are 85.320000
+        Courses you may like</code>
+</pre><br><br><hr><br>
+
+<b style="font-size: large;">4. Union</b><br>
+Union is also a collection of elements with similar or different data types, but the memory location is the same for all the elements. It is a special kind of data type in C language, where you can declare many variables, but only one variable can store the value at a given time.
+<br><br>
+Union is defined by the ‘union’ keyword, where each object will represent a single record. The size of a union will be equal to the memory needed for the largest variable inside it. Let’s make things more clear with an example:
+<br>
+</b><br>
+
+<pre class="language-c">
+    <code>union Data{
+        char *name;
+        int roll_no;
+        float avg_marks;
+    };
+    int main() {
+        union Data ob;
+        ob.name="George";
+        printf("Student name = %s",ob.name);
+        ob.roll_no=5;
+        printf("\nRoll No = %d",ob.roll_no);
+        ob.avg_marks=82.5;
+        printf("\nAverage Marks = %f",ob.avg_marks);
+         
+        printf("\nRoll Number = %d",ob.roll_no);
+        return 0;	
+    }</code>
+</pre><br><br>
+<b>Have a look at the output of the program:</b><br>
+
+
+
+<pre class="language-c">
+    <code>Student name = George
+        Roll No = 5
+        Average Marks = 82.500000
+        Roll Number = 1118109696</code>
+</pre><br><br>
+In the above example, the union student has three variables, name, roll no, and marks. The variable name can have a maximum of 25 characters, which means that the size would be 25 bytes. Similarly, roll no will have 4 bytes, and the average marks will also have 4 bytes.
+<br><br><hr><br><!--
+<b style="font-size: large;">
+    Enumeration Data Type</b><br>
+Enumeration is a user-defined data type used to assign names to the integral constants and enhance the readability of your program. The keyword used for enumeration is ‘enum’ with a syntax similar to structure:
+
+<br><br>
+There are two main reasons why enumerations are better than ‘#define’: <br>
+
+<br> 1. Enum constants get default values by the compiler
+<br> 2. They can be declared in the local scope <br><br>
+In the example below, the flag ‘week’ is now a data type with Monday, Tuesday, Wednesday, and so on as the integral constants. If you do not assign any value to the enum constant, then const1 will be 0, const2 will be 1, and so on. You can also define other variables with this enum data type as mentioned in the program:
+
+</b><br>
+
+<pre class="language-c">
+    <code>#include&lt;stdio.h&gt;
+        enum week{Monday, Tuesday, Wednesday, Thursday, Friday, Saturday,Sunday};
+int main(){
+	printf("Value of Wednesday %d",Wednesday);
+	enum week day;
+	day=Saturday;
+	printf("\n Value stored in the variable day %d",day);
+	printf("\n The value of each enum constant: \n");
+	for(int i=Monday;i<=Sunday;i++)
+	{
+		printf("%d \t",i);
+	}
+	return 0;
+}
+    </code>
+</pre><br><br>
+<b>This will be the output of the program:</b>
+
+</b><br><br>
+
+<pre class="language-c">
+    <code>Value of Wednesday 2
+        Value stored in the variable day 5
+        The value of each enum constant:
+       0       1       2       3       4       5       6</code>
+</pre><br>
+-->
+<br><hr><br>
+<b style="font-size: large;">Void Data Type</b><br>
+Void is a data type in C language that does not refer to any value of any type. It is mostly used as the return type in functions. You can declare the void pointers to take the address of variables from any data type. These pointers are often called ‘generic pointers.’
+<br><br>
+Look at the below example of the void data type:
+
+</b><br>
+
+<pre class="language-c">
+    <code>#include&lt;stdio.h&gt;
+        void addition(int a, int b);
+int main(){
+	int x=10;
+	int y=20;
+	addition(x,y);
+	void *ptr;
+	ptr=&x;
+	printf("\n Value stored in pointer(ptr) after dereferencing %d",*((int *)ptr));
+	return 0;
+}
+    
+void addition(int a,int b){
+	int sum=a+b;
+	printf("The sum of x and y is %d",sum);
+}
+</code>
+</pre><br><br>
+<b>See the output of the above program:</b>
+
+<br>
+
+<pre class="language-c">
+    <code>The sum of x and y is 30
+        Value stored in pointer(ptr) after dereferencing 10</code>
+</pre><br><br>
+In this example, the function named ‘addition’ has void as the return type, which means that it will not return any value to the main method. So, the user has to print the message inside the function body or write a different return type.
+
+</div>
+
+
+<!-------------------------------------------------------------------------------------------------->
+
+
+<div id="Keywords" class="tabcontent">
+  <h3>Keywords in C</h3>
+    A keyword is a reserved word. You cannot use it as a variable name, constant name, etc. There are only 32 reserved words (keywords) in the C language.
+    <br><br>
+    A list of 32 keywords in the c language is given below:
+    <br><br>
+    <div class="grid-container">
+   <div class="grid-items"> auto        </div>
+   <div class="grid-items"> break</div>
+   <div class="grid-items"> case</div>
+   <div class="grid-items"> char</div>
+   <div class="grid-items"> const</div>
+   <div class="grid-items"> continue</div>
+   <div class="grid-items"> default</div>
+   <div class="grid-items"> do</div>
+   <div class="grid-items"> double</div>
+   <div class="grid-items"> else</div>
+   <div class="grid-items"> enum</div>
+   <div class="grid-items"> extern</div>
+   <div class="grid-items"> float</div>
+   <div class="grid-items"> for</div>
+   <div class="grid-items"> goto</div>
+   <div class="grid-items"> if</div>
+   <div class="grid-items"> int</div>
+   <div class="grid-items"> long</div>
+   <div class="grid-items"> register</div>
+   <div class="grid-items"> return</div>
+   <div class="grid-items"> short</div>
+   <div class="grid-items"> signed</div>
+   <div class="grid-items"> sizeof</div>
+   <div class="grid-items"> static</div>
+   <div class="grid-items"> struct</div>
+   <div class="grid-items"> switch</div>
+   <div class="grid-items"> typedef</div>
+   <div class="grid-items"> union</div>
+   <div class="grid-items"> unsigned</div>
+   <div class="grid-items"> void</div>
+   <div class="grid-items"> volatile</div>
+   <div class="grid-items"> while</div>
+    
+       
+    </div>
+</div>
+
+
+<!-------------------------------------------------------------------------------------------------------------------------------->
+
+
+<div id="Identifiers" class="tabcontent">
+  <h2>C Identifiers</h2>
+  C identifiers represent the name in the C program, for example, variables, functions, arrays, structures, unions, labels, etc. An identifier can be composed of letters such as uppercase, lowercase letters, underscore, digits, but the starting letter should be either an alphabet or an underscore. If the identifier is not used in the external linkage, then it is called as an internal identifier. If the identifier is used in the external linkage, then it is called as an external identifier.
+  <br><br>
+  We can say that an identifier is a collection of alphanumeric characters that begins either with an alphabetical character or an underscore, which are used to represent various programming elements such as variables, functions, arrays, structures, unions, labels, etc. There are 52 alphabetical characters (uppercase and lowercase), underscore character, and ten numerical digits (0-9) that represent the identifiers. There is a total of 63 alphanumerical characters that represent the identifiers.
+  
+ <h3> Rules for constructing C identifiers</h3>
+  1. The first character of an identifier should be either an alphabet or an underscore, and then it can be followed by any of the character, digit, or underscore. <br>
+ <br>2. It should not begin with any numerical digit.
+  <br><br>3. In identifiers, both uppercase and lowercase letters are distinct. Therefore, we can say that identifiers are case sensitive.
+ <br><br>4. Commas or blank spaces cannot be specified within an identifier.
+ <br><br>5. Keywords cannot be represented as an identifier.
+ <br><br>6. The length of the identifiers should not bbe more than 31 characters.
+ <br><br>7. Identifiers should be written in such a way that it is meaningful, short, and easy to read.
+  <br><br><br><b>Example of valid identifiers</b>
+  
+<pre class="language-c">
+    <code>  total, sum, average, _m _, sum_1, etc. </code>
+</pre>
+<br><br><b> Example of invalid identifiers</b>
+ 
+  
+<br><pre class="language-c">
+  <code>    2sum (starts with a numerical digit)  
+      int (reserved word)  
+      char (reserved word)  
+      m+n (special character, i.e., '+') </code>
+</pre> <br>
+
+<br><hr><br>
+<b style="font-size: large;">Types of identifiers</b>
+<br>  1.Internal identifier
+<br>  2.External identifier <br><br>
+<b style="font-size: large;">1.Internal Identifier</b><br>
+
+If the identifier is not used in the external linkage, then it is known as an internal identifier. The internal identifiers can be local variables. <br><br>
+
+<b style="font-size: large;">  2.External Identifier</b><br>
+
+If the identifier is used in the external linkage, then it is known as an external identifier. The external identifiers can be function names, global variables.
+<br><br>
+<b>Differences between Keyword and Identifier</b><br>
+
+
+<br><br>
+<b> Let's understand through an example.</b>
+
+<br>
+
+<pre class="language-c">
+<code> 
+     #include&lt;stdio.h&gt;
+    int main()  
+    {  
+        int a=10;  
+        int A=20;  
+        printf("Value of a is : %d",a);  
+        printf("\nValue of A is :%d",A);  
+        return 0;  
+    } </code>
+</pre><br><br>
+<b>Output</b>
+
+<br>
+
+<pre class="language-c">
+<code></b><br>
+
+    <pre class="language-c">
+        <code>Value of a is : 10
+            Value of A is :20  </code>
+    </pre><br><br></code>
+</pre><br><br>
+The above output shows that the values of both the variables, 'a' and 'A' are different. Therefore, we conclude that the identifiers are case sensitive.
+<br><br>
+<b style="font-size: large;">Differences between Identifiers and Keywords</b>
+<br>
+
+
+<br><div class="grid-container1">
+<div class="grid-item1"> Identifiers                                                                               </div>
+<div class="grid-item1"> Keywords</div>
+<div class="grid-item1"> Identifiers are the names defined by the programmer to the basic elements of a program.</div>
+<div class="grid-item1"> Keywords are the reserved words whose meaning is known by the compiler.</div>
+<div class="grid-item1"> It is used to identify the name of the variable.</div>
+<div class="grid-item1"> It is used to specify the type of entity.</div>
+<div class="grid-item1"> It can consist of letters, digits, and underscore.</div>
+<div class="grid-item1"> It contains only letters.</div>
+<div class="grid-item1"> It can use both lowercase and uppercase letters.</div>
+<div class="grid-item1"> It uses only lowercase letters.</div>
+<div class="grid-item1"> No special character can be used except the underscore.</div>
+<div class="grid-item1"> It cannot contain any special character.</div>
+<div class="grid-item1"> The starting letter of identifiers can be lowercase, uppercase or underscore.</div>
+<div class="grid-item1"> It can be started only with the lowercase letter.</div>
+<div class="grid-item1"> It can be classified as internal and external identifiers.</div>
+<div class="grid-item1"> It cannot be further classified.</div>
+<div class="grid-item1"> Examples are test, result, sum, power, etc.</div>
+<div class="grid-item1"> Examples are 'for', 'if', 'else', 'break', etc.</div>
+</div>
+</div>
+
+
+<!--------------------------------------------------------------------------------------------->
+
+
+
+<div id="Operators" class="tabcontent">
+  <h2>C++ Operators</h2>
+  An operator is simply a symbol that is used to perform operations. There can be many types of operations like arithmetic, logical, bitwise etc.
+  <br><br>
+  There are following types of operators to perform different types of operations in C language.
+  <br>
+  <br> 1.Arithmetic Operators
+  <br> 2.Relational Operators
+  <br> 3.Logical Operators
+  <br> 4.Bitwise Operators
+  <br> 5.Assignment Operator
+  <br> 6.Unary operator
+  <br> 7.Ternary or Conditional Operator
+  <br> 8.Misc Operator
+<br><br>
+<img src="/cpp-operaters1.png" alt=""><br><br>
+ <b style="font-size: large;"> Precedence of Operators in C++</b><br><br>
+  The precedence of operator species that which operator will be evaluated first and next. The associativity specifies the operators direction to be evaluated, it may be left to right or right to left.
+  <br>
+  Let's understand the precedence by the example given below:
+  
+  
+  <pre><code>int data=5+10*10;</code></pre>    <br>
+  The "data" variable will contain 105 because * (multiplicative operator) is evaluated before + (additive operator).
+  <br><br>
+  The precedence and associativity of C++ operators is given below:
+  <br><br>
+  <div class="grid-container2">
+  <div class="grid-item2" style="background-color:greenyellow">  <b>Category</b>                            </div>
+  <div class="grid-item2"style="background-color:greenyellow;">  <b>Operator</b></div>
+  <div class="grid-item2">  Associativity</div>
+  <div class="grid-item2">  Postfix</div>
+  <div class="grid-item2">  () [] -> . ++ - -</div>
+  <div class="grid-item2">  Left to right</div>
+  <div class="grid-item2">  Unary</div>
+  <div class="grid-item2">  + - ! ~ ++ - - (type)* & sizeof</div>
+  <div class="grid-item2">  Right to left</div>
+  <div class="grid-item2">  Multiplicative</div>
+  <div class="grid-item2">  * / %</div>
+  <div class="grid-item2">  Left to right</div>
+  <div class="grid-item2">  Additive</div>
+  <div class="grid-item2">  + -</div>
+  <div class="grid-item2">  Right to left</div>
+  <div class="grid-item2">  Shift</div>
+  <div class="grid-item2">  << >></div>
+  <div class="grid-item2">  Left to right</div>
+  <div class="grid-item2">  Relational</div>
+  <div class="grid-item2">  < <= > >=</div>
+  <div class="grid-item2">  Left to right</div>
+  <div class="grid-item2">  Equality</div>
+  <div class="grid-item2">  == !=/td></div>
+  <div class="grid-item2">  Right to left</div>
+  <div class="grid-item2">  Bitwise AND</div>
+  <div class="grid-item2">  &</div>
+  <div class="grid-item2">  Left to right</div>
+  <div class="grid-item2">  Bitwise XOR</div>
+  <div class="grid-item2">  ^</div>
+  <div class="grid-item2">  Left to right</div>
+  <div class="grid-item2">  Bitwise OR</div>
+  <div class="grid-item2">  |</div>
+  <div class="grid-item2">  Right to left</div>
+  <div class="grid-item2">  Logical AND</div>
+  <div class="grid-item2">  &&</div>
+  <div class="grid-item2">  Left to right</div>
+  <div class="grid-item2">  Logical OR</div>
+  <div class="grid-item2">  ||</div>
+  <div class="grid-item2">  Left to right</div>
+  <div class="grid-item2">  Conditional</div>
+  <div class="grid-item2">  ?:</div>
+  <div class="grid-item2">  Right to left</div>
+  <div class="grid-item2">  Assignment</div>
+  <div class="grid-item2">  = += -= *= /= %=>>= <<= &= ^= |=</div>
+  <div class="grid-item2">  Right to left</div>
+  <div class="grid-item2">  Comma</div>
+  <div class="grid-item2">  ,</div>
+  <div class="grid-item2">  Left to right</div>
+ 
+</div>
+</div>
+
+
+<!------------------------------------------------------------------------------->
+
+
+
+<div id="Comments" class="tabcontent">
+  <h3>Comments in C</h3>
+<p>Comments in C language are used to provide information about lines of code. It is widely used for documenting code. 
+  <br><br> There are 2 types of comments in the C language.</p>
+<br><br>
+Single Line Comments <br>
+Multi-Line Comments
+<br><br>
+<b>Single Line Comments</b><br><br>
+Single line comments are represented by double slash \\. 
+<br> Let's see an example of a single line comment in C.
+
+<br>
+
+<pre class="language-c">
+    <code>#include&lt;stdio.h&gt;   
+      int main(){    
+          //printing information    
+          printf("Hello C");    
+      return 0;  
+      } </code>
+</pre><br><br>     
+<b>Output:</b>
+
+
+
+<pre class="language-c">
+    <code>Hello C</code>
+</pre><br><br>
+Even you can place the comment after the statement. For example:
+
+
+</b><br>
+
+<pre class="language-c">
+    <code>printf("Hello C");//printing information  </code>
+</pre><br><br>
+
+<b> 
+  Mult Line Comments</b><br><br>
+Multi-Line comments are represented by slash asterisk \* ... *\. It can occupy many lines of code, but it can't be nested. Syntax:
+
+</b><br><br>
+
+<pre class="language-c">
+    <code>/*  
+      code 
+      to be commented 
+      */  </code>
+</pre><br><br>
+Let's see an example of a multi-Line comment in C. <br>
+<pre class="language-c">
+  <code>#include&lt;stdio.h&gt;
+    int main(){    
+    /*printing information   
+      Multi-Line Comment*/  
+    printf("Hello C");    
+return 0;  
+}   </code>
+</pre><br><br>
+    
+     
+<b>Output:</b>
+<pre class="language-c">
+  <code>Hello C</code>
+</pre><br><br>
+
+</div>
+
+
+<!---------------------------------------------------------------------------------------->
+
+<div id="Format Specifier" class="tabcontent">
+  <h3>  C Format Specifier</h3>
+The Format specifier is a string used in the formatted input and output functions. The format 
+string determines the format of the input and output. The format string always starts with a '%' character.
+<br><br><br>
+<b>The commonly used format specifiers in printf() function are:</b>
+<div class="grid-container3">
+<div class="grid-item3"> Format specifier</div>
+<div class="grid-item3"> Description</div>
+<div class="grid-item3"> %d or %i</div>
+<div class="grid-item3"> It is used to print the signed integer value where signed integer
+   means that the variable can hold both positive and negative values.</div>
+<div class="grid-item3"> %u</div>
+<div class="grid-item3"> It is used to print the unsigned integer value where the unsigned 
+  integer means that the variable can hold only positive value.</div>
+<div class="grid-item3"> %o</div>
+<div class="grid-item3"> It is used to print the octal unsigned integer where octal integer 
+  value always starts with a 0 value.</div>
+<div class="grid-item3"> %x</div>
+<div class="grid-item3"> It is used to print the hexadecimal unsigned integer where the 
+  hexadecimal integer value always starts with a 0x value. In this, alphabetical characters are printed in small letters such as a, b, c, etc.</div>
+<div class="grid-item3"> %X</div>
+<div class="grid-item3"> It is used to print the hexadecimal unsigned integer, but %X
+  prints the alphabetical characters in uppercase such as A, B, C, etc.</div>
+<div class="grid-item3"> %f</div>
+<div class="grid-item3"> It is used for printing the decimal floating-point values. By
+  default, it prints the 6 values after '.'.</div>
+<div class="grid-item3"> %e/%E	</div>
+<div class="grid-item3"> It is used for scientific notation. It is also known as Mantissa
+  >or Exponent.</div>
+<div class="grid-item3"> %g	</div>
+<div class="grid-item3"> It is used to print the decimal floating-point values, and it uses
+  the fixed precision, i.e., the value after the decimal in input would be exactly the same as the value in the output.</div>
+<div class="grid-item3"> %p</div>
+<div class="grid-item3"> It is used to print the address in a hexadecimal form.</div>
+<div class="grid-item3"> %c</div>
+<div class="grid-item3"> It is used to print the unsigned character.</div>
+<div class="grid-item3"> %s</div>
+<div class="grid-item3"> It is used to print the strings.</div>
+<div class="grid-item3"> %ld</div>
+<div class="grid-item3"> It is used to print the long-signed integer value.</div>
+</div>  
+<br><br>
+<b>Let's understand the format specifiers in detail through an example.</b><br><br>
+<h1 style="background-color: aqua;">%d</h1><br>
+<pre class="language-c">
+  <code>#include&lt;stdio.h&gt;
+    int main()  
+{  
+  int b=6;  
+  int c=8;  
+  printf("Value of b is:%d", b);  
+  printf("\nValue of c is:%d",c);  
+  
+    return 0;  
+} </code>
+</pre><br><br> 
+<b>In the above code, we are printing the integer value of b and c by using the %d specifier.</b>
+<pre class="language-c">
+  <code>Value of b is:6
+  Value of c is:8
+  </code>
+</pre><br><br><br>
+<h1 style="background-color: #baa2f5;">%u</h1>
+<pre class="language-c">
+  <code>#include&lt;stdio.h&gt;
+    int main()  
+{  
+  int b=10;  
+  int c=-10;  
+  printf("Value of b is:%u", b);  
+  printf("\nValue of c is:%u",c);  
+  
+    return 0;  
+} </code>
+</pre><br><br> 
+
+In the above program, we are displaying the value of b and c by using an unsigned format specifier, i.e., %u. The value of b is positive, so %u specifier prints the exact value of b, but it does not print the value of c as c contains the negative value. <br><br>
+<b>Output:</b>
+<pre class="language-c">
+  <code>Value of b is:10
+  Value of c is:4294967286
+  </code>
+</pre><br><br>
+<h1 style="background-color: bisque;">%o</h1>
+<pre class="language-c">
+  <code>int main()  
+    {  
+      int a=0100;  
+      printf("Octal value of a is: %o", a);  
+      printf("\nInteger value of a is: %d",a);  
+      return 0;  
+    } </code>
+</pre><br><br> 
+In the above code, we are displaying the octal value and integer value of a.
+
+<br><br><b>Output</b>
+<pre class="language-c">
+  <code>Octal value of a is: 100
+  Integer value of a is:64
+  </code>
+</pre><br><br>
+
+
+<h1 style="background-color: #d175ff;">%x and %X</h1>
+<pre class="language-c">
+  <code>int main()  
+    {  
+      int y=0xA;  
+      printf("Hexadecimal value of y is: %x", y);  
+      printf("Hexadecimal value of y is: %X",y);  
+      printf("Integer value of y is: %d",y);  
+        return 0;  
+    }</code>
+</pre><br><br> 
+  
+In the above code, y contains the hexadecimal value 'A'. We display the hexadecimal value of y in two formats. We use %x and %X to print the hexadecimal value where %x displays the value in small letters, i.e., 'a' and %X displays the value in a capital letter, i.e., 'A'.
+<br>
+<br><br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Output</b>
+<pre class="language-c">
+  <code>Hexadecimal value of y is:a
+Hexadecimal value of y is: A 
+Integer value of y is: 10
+  </code>
+</pre><br><br>
+<h1 style="background-color: #ffff99;">%f</h1>
+<pre class="language-c">
+  <code>int main()  
+    {  
+      float y=3.4;  
+      printf("Floating point value of y is: %f", y);  
+      return 0;  
+    }  </code>
+</pre><br><br> 
+  
+In the above code, y contains the hexadecimal value 'A'. We display the hexadecimal value of y in two formats. We use %x and %X to print the hexadecimal value where %x displays the value in small letters, i.e., 'a' and %X displays the value in a capital letter, i.e., 'A'.
+<br>
+The above code prints the floating value of y <br>
+<br><br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Output</b>
+<pre class="language-c">
+  <code>Floating point value of y is: 3.400000 </code>
+</pre><br><br>
+
+
+
+<h1 style="background-color:  #80ffaa;">%e</h1>
+<pre class="language-c">
+  <code>int main()  
+    {  
+      float y=3;  
+      printf("Exponential value of y is: %e", y);  
+      return 0;  
+    }  </code>
+</pre><br><br> 
+
+<br><br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Output</b>
+<pre class="language-c">
+  <code>Exponential value of y is :3.000000e+00</code>
+</pre><br><br>
+
+
+
+
+<h1 style="background-color:  	 #ff8080;">%E</h1>
+<pre class="language-c">
+  <code>int main()  
+    {  
+      float y=3;  
+      printf("Exponential value of y is: %E", y);  
+      return 0;  
+    }</code>
+</pre><br><br> 
+
+<br><br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Output</b>
+<pre class="language-c">
+  <code>Exponential value of y is :3.000000E+00</code>
+</pre><br><br>
+
+
+
+
+<h1 style="background-color:  	 	 #ffb3ff;">%g</h1>
+<pre class="language-c">
+  <code>int main()  
+    {  
+      float y=3.8;  
+      printf("Float value of y is: %g", y);  
+      return 0;  
+    }</code>
+</pre><br><br> In the above code, we are displaying the floating value of y by using %g specifier. The %g specifier displays the output same as the input with a same precision.
+<br> 
+
+<br><br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Output</b>
+<pre class="language-c">
+  <code>Float value of y is: 3.8</code>
+</pre><br><br>
+
+
+
+<h1 style="background-color:  	 	 	 #d9b38c;">%p</h1>
+<pre class="language-c">
+  <code>int main()  
+    {  
+      int y=5;  
+  printf("Address value of y in hexadecimal form is: %p", &y);  
+  return 0;  
+    }</code>
+</pre><br><br> In the above code, we are displaying the floating value of y by using %g specifier. The %g specifier displays the output same as the input with a same precision.
+<br> 
+
+<br><br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Output</b>
+<pre class="language-c">
+  <code>Address value of y in hexadecimal form is: 0x7ffeb01a53ec</code>
+</pre><br><br>
+</div>
+</div>
+
+
+<!----------------------------------------------------------------------------------->
+
+
+<div id="Escape sequence" class="tabcontent">
+  <h1>Escape Sequence in C</h1>
+  An escape sequence in C language is a sequence of characters that doesn't represent itself when used inside string literal or character.
+  <br><br>
+  It is composed of two or more characters starting with backslash \. For example: \n represents new line.
+  <br><br>
+  <b style="font-size: large;">List of Escape Sequences in C</b><br>
+  <div class="grid-container4">
+ <div class="grid-item4" style="background-color: #ff66ff ;"> <b>Escape Sequence</b></div>
+ <div class="grid-item4" style="background-color: #ff66ff ;"> <b>Meaning</b></div>
+ <div class="grid-item4"> \a	</div>
+ <div class="grid-item4"> Alarm or Beep</div>
+ <div class="grid-item4"> \b	</div>
+ <div class="grid-item4"> Backspace</div>
+ <div class="grid-item4"> \f	</div>
+ <div class="grid-item4"> Form Feed</div>
+ <div class="grid-item4"> \n	</div>
+ <div class="grid-item4"> New Line</div>
+ <div class="grid-item4"> \r	</div>
+ <div class="grid-item4"> Carriage Return</div>
+ <div class="grid-item4"> \t	</div>
+ <div class="grid-item4"> Tab (Horizontal)</div>
+ <div class="grid-item4"> \v	</div>
+ <div class="grid-item4"> Vertical Tab</div>
+ <div class="grid-item4"> \\	</div>
+ <div class="grid-item4"> Backslash</div>
+ <div class="grid-item4"> \'	</div>
+ <div class="grid-item4"> Single Quote</div>
+ <div class="grid-item4"> \"	</div>
+ <div class="grid-item4"> Double Quote</div>
+ <div class="grid-item4"> \?	</div>
+ <div class="grid-item4"> Question Mark</div>
+ <div class="grid-item4"> \nnn	</div>
+ <div class="grid-item4"> octal number</div>
+ <div class="grid-item4"> \xhh	</div>
+ <div class="grid-item4"> hexadecimal number</div>
+ <div class="grid-item4"> \0	</div>
+ <div class="grid-item4"> Null</div>
+ </div>
+  <br><br>
+  <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Escape Sequence Example</b><br>
+  <pre class="language-c">
+    <code>#include&lt;stdio.h&gt;    
+      int main(){    
+           int number=50;  
+          printf("You\nare\nlearning\n\'c\' language\n\"Do you know C language\"");     
+      return 0;  
+      } </code>
+  </pre><br><br><br>    
+ <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Output:</b>
+  
+</b><br>
+
+<pre class="language-c">
+    <code>You
+      are
+      learning
+      'c' language
+      "Do you know C language"</code>
+</pre><br><br>
+
+</div>
+
+<!------------------------------------------------------------------------------------------>
+
+
+<div id="ASCII value" class="tabcontent">
+  <h1>  ASCII value in C</h1>
+ <b> What is ASCII code?</b> <br>
+  The full form of ASCII is the American Standard Code for information interchange. It is a character encoding scheme used for electronics communication. Each character or a special character is represented by some ASCII code, and each ascii code occupies 7 bits in memory.
+  <br><br>
+  In C programming language, a character variable does not contain a character value itself rather the ascii value of the character variable. The ascii value represents the character variable in numbers, and each character variable is assigned with some number range from 0 to 127. For example, the ascii value of 'A' is 65.
+  <br><br>
+  In the above example, we assign 'A' to the character variable whose ascii value is 65, so 65 will be stored in the character variable rather than 'A'.
+  <br><br>
+  Let's understand through an example.
+  <br>
+  
+  We will create a program which will display the ascii value of the character variable.
+  <br>
+  
+  <pre class="language-c">
+    <code>#include&lt;stdio.h&gt;
+      int main()  
+      {  
+          char ch;    // variable declaration  
+          printf("Enter a character");  
+          scanf("%c",&ch);  // user input  
+          printf("\n The ascii value of the ch variable is : %d", ch);  
+          return 0;  
+      } </code>
+  </pre><br><br> 
+  In the above code, the first user will give the character input, and the input will get stored in the 'ch' variable. If we print the value of the 'ch' variable by using %c format specifier, then it will display 'A' because we have given the character input as 'A', and if we use the %d format specifier then its ascii value will be displayed, i.e., 65.
+  <br><br><br>
+<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Output</b>
+<br>
+<pre class="language-c">
+  <code>Enter a characterA
+    The ascii value of the ch variable is : 65
+  </code>
+</pre><br><br>
+
+  The above output shows that the user gave the input as 'A', and after giving input, the ascii value of 'A' will get printed, i.e., 65.
+  <br><br>
+  Now, we will create a program which will display the ascii value of all the characters.
+  <br><pre class="language-c">
+    <code> #include&lt;stdio.h&gt;
+      int main()  
+      {  
+       int k;   // variable declaration   
+       for(int k=0;k<=255;k++)  // for loop from 0-255  
+       {  
+           printf("\nThe ascii value of %c is %d", k,k);  
+       }  
+      return 0;  
+      } </code>
+  </pre><br>
+  
+  The above program will display the ascii value of all the characters. As we know that ascii value of all the characters starts from 0 and ends at 255, so we iterate the for loop from 0 to 255.
+  <br><br>
+  Now we will create the program which will sum the ascii value of a string.
+  <br>
+  <pre class="language-c">
+    <code>#include&lt;stdio.h&gt;  
+      int main()  
+      {  
+          int sum=0;  // variable initialization  
+          char name[20];  // variable initialization  
+          int i=0;  // variable initialization  
+          printf("Enter a name: ");  
+          scanf("%s", name);  
+          while(name[i]!='\0')  // while loop  
+          {  
+              printf("\nThe ascii value of the character %c is %d", name[i],name[i]);  
+              sum=sum+name[i];  
+              i++;  
+          }  
+          printf("\nSum of the ascii value of a string is : %d", sum);  
+          return 0;  
+      } </code>
+  </pre><br><br> 
+  In the above code, we are taking user input as a string. After taking user input, we execute the <b>while</b> loop which adds the ascii value of all the characters of a string and stores it in a <b>'sum'</b> variable.
+<br><br><br>
+  <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Output</b>
+  <pre class="language-c">
+    <code>Enter a name: akshita
+The ascii value of the character a is 97 
+The ascii value of the character k is 107
+The ascii value of the character s is 115
+The ascii value of the character h is 104
+The ascii value of the character i is 105      
+The ascii value of the character t is 116
+The ascii value of the character a is 97
+
+Sum of the ascii value of a string is: 741
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+    </code>
+  </pre><br><br>
+</div>
+
+
+<!----------------------------------------------------------------------------------->
+
+
+<div id="Constants" class="tabcontent">
+    
+<h1>Constants in C</h1>
+A constant is a value or variable that can't be changed in the program, for example: 10, 20, 'a', 3.4, "c programming" etc.
+<br><br>
+There are different types of constants in C programming.
+<br><br>
+<b style="font-size: large;">List of Constants in C</b>
+<div class="grid-container5">
+<div class="grid-item5" style="background-color: #66ff33;"> Constant</div>
+<div class="grid-item5" style="background-color: #66ff33;"> Example </div>
+<div class="grid-item5"> Decimal Constant	</div>
+<div class="grid-item5"> 10, 20, 450 etc.</div>
+<div class="grid-item5"> Real or Floating-point Constant	</div>
+<div class="grid-item5"> 10.3, 20.2, 450.6 etc.</div>
+<div class="grid-item5"> Octal Constant	</div>
+<div class="grid-item5"> 021, 033, 046 etc.</div>
+<div class="grid-item5"> Hexadecimal Constant	</div>
+<div class="grid-item5"> 0x2a, 0x7b, 0xaa etc.</div>
+<div class="grid-item5"> Character Constant	</div>
+<div class="grid-item5"> 'a', 'b', 'x' etc.</div>
+<div class="grid-item5"> String Constant	</div>
+<div class="grid-item5"> "c", "c program", "c in javatpoint" etc.</div>
+</div>
+<br><br><br><b style="font-size: large;">2 ways to define constant in C</b>
+<br><br> There are two ways to define constant in C programming.
+<br>
+<b>1. const keyword</b><br>
+<b>2. #define preprocessor</b>
+<br><br><b>1) C const keyword</b><br>
+The const keyword is used to define constant in C programming.
+<br>
+
+<pre class="language-c">
+  <code>const float PI=3.14; </code>
+</pre><br><br> 
+Now, the value of PI variable can't be changed.
+
+<pre class="language-c">
+  <code>#include&lt;stdio.h&gt;   
+    int main(){    
+        const float PI=3.14;    
+        printf("The value of PI is: %f",PI);    
+        return 0;  
+    } </code>
+</pre><br><br>    
+<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Output</b>
+<pre class="language-c">
+  <code>The value of PI is: 3.140000</code>
+</pre><br><br>
+
+If you try to change the the value of PI, it will render compile time error.
+<pre class="language-c">
+  <code>#include&lt;stdio.h&gt; 
+    int main(){    
+    const float PI=3.14;     
+    PI=4.5;    
+    printf("The value of PI is: %f",PI);    
+        return 0;  
+    }</code>
+</pre><br><br>    
+<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Output</b>
+<pre class="language-c">
+  <code>
+    Compile Time Error: Cannot modify a const object</code>
+</pre><br><br>
+
+<b>2) C #define preprocessor</b><br>
+The #define preprocessor is also used to define constant.
+
+</div>
+
+<!---------------------------------------------------------------------------------->
+
+
+<div id="Literals" class="tabcontent">
+  <h1>  What are literals?</h1>
+  Literals are the constant values assigned to the constant variables. We can say that the literals represent the fixed values that cannot be modified. It also contains memory but does not have references as variables. For example, const int =10; is a constant integer expression in which 10 is an integer literal.
+  <br><br>
+<b style="font-size: large;">  Types of literals</b><br>
+ There are four types of literals that exist in C programming:
+ <br><br> 
+<b>1. 
+  Integer literal</b><br> 
+<b> 2. Float literal</b> <br>
+ <b>3. Character literal</b> <br>
+  <b>4. String literal</b> <br><br><br>
+  <b>1. Integer literal</b><br>
+  It is a numeric literal that represents only integer type values. It represents the value neither in fractional nor exponential part.
+  <br><br>
+  <b>It can be specified in the following three ways:</b>
+<br><hr><br><b >  Decimal number (base 10)</b><br>
+  It is defined by representing the digits between 0 to 9. For example, 45, 67, etc. <br>
+  
+  <br>
+<hr><br><b> Octal number (base 8)</b><br>
+  It is defined as a number in which 0 is followed by digits such as 0,1,2,3,4,5,6,7. For example, 012, 034, 055, etc.
+  <br><br>
+  <hr><br>
+  <b>Hexadecimal number (base 16)</b> 
+  It is defined as a number in which 0x or 0X is followed by the hexadecimal digits (i.e., digits from 0 to 9, alphabetical characters from (a-z) or (A-Z)).
+  <br>
+  <hr><br>
+  <b>An integer literal is suffixed by following two sign qualifiers:</b>
+  <br><br>
+<b style="font-size: large;">  L or l: </b><br> It is a size qualifier that specifies the size of the integer type as long.
+  <br><br>
+<b style="font-size: large;">  U or u: </b><br> It is a sign qualifier that represents the type of the integer as unsigned. An unsigned qualifier contains only positive values.
+  <br><br>
+ <div style="background-color: aqua;"> Note: The order of the qualifier is not considered, i.e., both lu and ul are the same.</div><br>  
+ Let's look at a simple example of integer literal.
+  
+</b><br>
+
+<pre class="language-c">
+    <code>  #include&lt;stdio.h&gt;  
+      int main()  
+      {  
+          const int a=23;  // constant integer literal  
+          printf("Integer literal : %d", a);  
+          return 0;  
+      } </code>
+</pre><br><br> 
+<b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Output</b>
+  
+  <pre class="language-c">
+    <code>Integer literal : 23</code>
+  </pre><br><br>
+ <b style="font-size: medium;"> Float literal</b><br>
+  It is a literal that contains only floating-point values or real numbers. These real numbers contain the number of parts such as integer part, real part, exponential part, and fractional part. The floating-point literal must be specified either in decimal or in exponential form. Let's understand these forms in brief.
+  <br><br><hr><br>
+<b style="font-size: medium;">  Decimal form</b><br>
+  The decimal form must contain either decimal point, exponential part, or both. If it does not contain either of these, then the compiler will throw an error. The decimal notation can be prefixed either by '+' or '-' symbol that specifies the positive and negative numbers.
+  <br><hr><br>
+  <b>Examples of float literal in decimal form are:</b>
+  
+  <pre class="language-c">
+    <code>1.2, +9.0, -4.5  </code>
+  </pre><br><br>
+<b>  Let's see a simple example of float literal in decimal form.</b>
+  
+</b><br>
+
+<pre class="language-c">
+    <code>  #include&lt;stdio.h&gt;  
+      int main()  
+      {  
+          const float a=4.5; // constant float literal  
+          const float b=5.6; // constant float literal  
+          float sum;  
+          sum=a+b;  
+          printf("%f", sum);  
+          return 0;  
+      } </code>
+</pre><br><br> 
+<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Output</b>
+  
+<pre class="language-c">
+  <code>  10.100000</code>
+</pre><br><hr><br>
+ <b style="font-size: medium;"> Exponential form</b><br>
+  The exponential form is useful when we want to represent the number, which is having a big magnitude. It contains two parts, i.e., mantissa and exponent. For example, the number is 2340000000000, and it can be expressed as 2.34e12 in an exponential form.
+  <br><br>
+   
+<b>  Rules for creating an exponential notation</b>
+  <br>
+  The following are the rules for creating a float literal in exponential notation:
+  <br><br>
+  1. In exponential notation, the mantissa can be specified either in decimal or fractional form. <br>
+  2. An exponent can be written in both uppercase and lowercase, i.e., e and E.
+  <br> 3. We can use both the signs, i.e., positive and negative, before the mantissa and exponent.
+  <br> 4.Spaces are not allowed <br><br><hr><br>
+ <b style="font-size: medium;"> Character literal</b><br>
+  A character literal contains a single character enclosed within single quotes. If multiple characters are assigned to the variable, then we need to create a character array. If we try to store more than one character in a variable, then the warning of a <b>multi-character character</b> constant will be generated. Let's observe this scenario through an example.
+  <br><br>
+</b><br>
+
+<pre class="language-c">
+    <code> #include&lt;stdio.h&gt;  
+      int main()  
+      {  
+          const char c='ak';  
+          printf("%c",c);  
+          return 0;  
+      }  </code>
+</pre><br><br>
+  In the above code, we have used two characters, i.e., 'ak', within single quotes. So, this statement will generate a warning as shown below.
+  <br><br><br>
+ <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Warning generated:</b>
+  
+ <pre class="language-c">
+  <code> main.c:6:18: warning: multi-character character constant  
+    [-Wmultichar]  
+  const char c='ak';  
+main.c:6:18: warning: implicit conversion from 'int' to 'char'  
+    changes value from 24939 to 107 [-Wconstant-conversion]  
+  const char c='ak';  
+             ~ ^~~~  
+2 warnings generated.  
+? ./main  </code>
+</pre><br><br>
+<b>  Representation of character literal</b>
+  
+  <b>A character literal can be represented in the following ways:</b>
+  <br><br>
+  1. It can be represented by specifying a single character within single quotes. For example, 'a', 'b', etc.
+  <br> 2. We can specify the escape sequence character within single quotes to represent a character literal. For example, '\n', '\a', '\b'.
+  <br> 3. We can also use the ASCII in integer to represent a character literal. For example, the ascii value of 65 is 'A'.
+  <br> 4. The octal and hexadecimal notation can be used as an escape sequence to represent a character literal. For example, '\023', '\0x12'.
+<br><br><hr><br><b style="font-size: large;">  String literal</b><br>
+  A string literal represents multiple characters enclosed within double-quotes. It contains an additional character, i.e., '\0' (null character), which gets automatically inserted. This null character specifies the termination of the string. We can use the '+' symbol to concatenate two strings.
+  
+<br><br><b>  For example,</b><br>
+  
+  String1= "javatpoint";
+  <br>
+  
+  String2= "family";
+  <br><br>
+  To concatenate the above two strings, we use '+' operator, as shown in the below statement:
+  <br><br>
+  "javatpoint " + "family"= javatpoint family
+  <br><br>
+<div style="background-color: #ffffb3 ;">  Note: If we represent a single character, i.e., 'b', then this character will occupy a single byte as it is a character literal. And, if we represent the character within double quotes "b" then it will occupy more bytes as it is a string literal.</div>
+
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+
+<div class="column3">
+  <h2 id="Explore">Explore more Courses -></h2>
+
+    
+   
+    
+    <div class="row">
+      <div class="column">
+        <div class="card">
+     
+          <a href="#" class="fontcard">Data Structure and Algorithm</a>
+         
+    
+        </div>
+      </div>
+    <br><br>
+      <div class="column">
+        <div class="card">
+          <a href="#" class="fontcard">Web Development</a>
+          
+       
+        </div>
+      </div>
+      <br><br>
+      <div class="column">
+        <div class="card">
+          <a href="#" class="fontcard">Android Development</a>
+         
+         
+        </div>
+      </div>
+      <br><br>
+      <div class="column">
+        <div class="card">
+          <a href="#" class="fontcard">Machine Learning</a>
+         
+        </div>
+      </div><br><br>
+      <div class="column">
+        <div class="card">
+          <a href="#" class="fontcard">Artificial Intelligence</a>
+         
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
